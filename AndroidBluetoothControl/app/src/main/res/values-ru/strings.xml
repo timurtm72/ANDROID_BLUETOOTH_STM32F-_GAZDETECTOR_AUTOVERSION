@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Шахрозада 1</string>
+    <string name="btu_name">HC-06</string>
+    <string name="ok">Да</string>
+    <string name="cancel">Отменить</string>
+    <string name="about">О программе</string>
+    <string name="enter_time">Введите время опроса,мсек</string>
+    <string name="settings">Настройки</string>
+    <string name="device_name">Введите имя устройства</string>
+    <string name="not_btu">Блютуз отсутствует</string>
+    <string name="delete_complete">Удаление завершено</string>
+    <string name="empty_ls">Список пуст</string>
+    <string name="delete">Удалить</string>
+    <string name="sensor_alarm">Сигнал срабатывания датчика, или его неисправность</string>
+    <string name="sensor_normal">Сигнал нормальной работы датчика</string>
+    <string name="sensor_deactivate">Сигнал неактивного датчика</string>
+    <string name="con_state">Соединение активно</string>
+    <string name="discon_state">Соединение не активно</string>
+    <string name="forward_sensor_ppm">Сенсор передний  РРМ</string>
+    <string name="board_sensor_ppm">Сенсор на плате  РРМ</string>
+    <string name="backward_sensor_ppm">Сенсор задний  РРМ</string>
+    <string name="forward_sensor_damage">Повреждение сенсор передний</string>
+    <string name="board_sensor_damage">Повреждение сенсор на плате</string>
+    <string name="backward_sensor_damage">Повреждение сенсор задний</string>
+    <string name="forward_sensor_status">Статус сенсор передний</string>
+    <string name="board_sensor_status">Статус сенсор на плате</string>
+    <string name="backward_sensor_status">Статус сенсор задний</string>
+    <string name="con_status">Статус соединения</string>
+    <string name="connect">Соединиться</string>
+    <string name="main_name">Главное меню</string>
+    <string-array name="itemname">
+        <item>Процесс</item>
+        <item>Настройки</item>
+        <item>Помощь</item>
+        <item>О программе</item>
+        <item>Ошибки</item>
+        <item>Ввод устройства</item>
+    </string-array>
+    <string-array name="subitemname">
+        <item>Запуск процесса</item>
+        <item>Изменение настроек</item>
+        <item>Почитайте помощь</item>
+        <item>Все о программе</item>
+        <item>Посмотрите ошибки</item>
+        <item>Введите имя устройства</item>
+    </string-array>
+    <string name="about_text_name">
+        Программа Шахрозада 1.\n
+        Выпущена 31.10.2017\n
+        Версия 1.0\n
+        Все права защищены.\n
+    </string>
+    <string name="help_text_name">
+        В меню <font size="17" color="red" face="Arial">"Настройки"</font> необходимо
+        задать время опроса приложения
+        устройства.
+        В меню <font size="17" color="red" face="Arial">"Ошибки"</font> Вы можете
+        просматривать список ошибок,
+        а также удалить их.
+        В меню <font size="17" color="red" face="Arial">"Ввод устройства"</font>
+        Вы должны ввести имя блютуз
+        устройства на контроллере.
+    </string>
+    <string name="connect_btu">Соединить</string>
+    <string name="disconnect_btu">Разъединить</string>
+    <string name="scan_btn">ПОИСК УСТРОЙСТВ</string>
+    <string-array name="sensor_err_message">
+        <item>Сенсор на плате сработал</item>
+        <item>Сенсор передний сработал</item>
+        <item>Сенсор задний сработал</item>
+        <item>Повреждение сенсора на плате</item>
+        <item>Повреждение переднего сенсора</item>
+        <item>Повреждение заднего сенсора</item>
+    </string-array>
+    <string name="notification_title">УТЕЧКА ГАЗА</string>
+    <string name="notification_text">Нажмите чтобы увидеть ошибки</string>
+    <string name="btu_en_text">Подождите немного блютуз включается </string>
+    <string name="btu_no_found">Устройства не найдены</string>
+    <string name="bluetooth_devices">Устройства Bluetooth</string>
+    <string name="no_devices_found">Нет устройства</string>
+    <string name="scanning">Сканирование</string>
+    <string name="scan_for_devices">Поиск</string>
+    <string name="select_device">Выбрать</string>
+    <string name="title_activity_errors">errorsActivity</string>
+</resources>
+
+
+
+

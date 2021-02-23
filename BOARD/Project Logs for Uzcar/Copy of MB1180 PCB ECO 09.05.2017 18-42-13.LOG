@@ -1,0 +1,6 @@
+Added Component: Designator=DA1(MQ1)
+Added Pin To Net: NetName=VDD Pin=DA1-A
+Added Pin To Net: NetName=NetDA1_B Pin=DA1-B
+Added Pin To Net: NetName=5V Pin=DA1-H1
+Added Pin To Net: NetName=NetDA1_H2 Pin=DA1-H2
+Added Member To Class: ClassName=MCU_32_1 Member=Component DA1 Gas sensor MQ4

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>Введіть ім
+    <string name="app_name">Шахрозада 1</string>
+    <string name="btu_name">HC-06</string>
+    <string name="ok">Добре</string>
+    <string name="cancel">Скасувати</string>
+    <string name="about">Про програму</string>
+    <string name="enter_time">Введіть час опитування,мсек</string>
+    <string name="settings">Налаштування</string>
+    <string name="device_name">Введіть ім\'я пристрою</string>
+    <string name="not_btu">Блютуз відсутня</string>
+    <string name="delete_complete">Видалення завершено</string>
+    <string name="empty_ls">Список порожній</string>
+    <string name="delete">Вилучити</string>
+    <string name="sensor_alarm">Сигнал спрацювання датчика, або його несправність</string>
+    <string name="sensor_normal">Сигнал нормальної роботи датчика</string>
+    <string name="sensor_deactivate">Сигнал неактивного датчика</string>
+    <string name="con_state">З\'єднання активно</string>
+    <string name="discon_state">З\'єднання не активно</string>
+    <string name="forward_sensor_ppm">Сенсор передній РРМ</string>
+    <string name="board_sensor_ppm">Сенсор на платі РРМ</string>
+    <string name="backward_sensor_ppm">Сенсор задній РРМ</string>
+    <string name="forward_sensor_damage">Пошкодження сенсор передній</string>
+    <string name="board_sensor_damage">Пошкодження сенсор на платі</string>
+    <string name="backward_sensor_damage">Пошкодження сенсор задній</string>
+    <string name="forward_sensor_status"> Статус сенсор передній</string>
+    <string name="board_sensor_status"> Статус сенсор на платі</string>
+    <string name="backward_sensor_status"> Статус сенсор задній</string>
+    <string name="con_status">Стан з\'єднання</string>
+    <string name="connect">З\'єднатися</string>
+    <string name="main_name">Головне меню</string>
+    <string-array name="itemname">
+        <item>Процес</item>
+        <item>Налаштування</item>
+        <item>Допомогу</item>
+        <item>Про програму</item>
+        <item>Помилки</item>
+        <item>Введення пристрою</item>
+    </string-array>
+    <string-array name="subitemname">
+        <item>Запуск процесу</item>
+        <item>Зміна налаштувань</item>
+        <item>Почитайте допомогу</item>
+        <item>Все про програму</item>
+        <item>Подивіться помилки</item>
+        <item>Введіть ім\'я пристрою</item>
+    </string-array>
+    <string name="about_text_name">
+        Програма Шахрозада 1.\n
+        Випущена 31.10.2017\n
+        Версія 1.0\n
+        Всі права захищено.\n
+    </string>
+    <string name="help_text_name">
+        В меню <font size="17" color="red" face="Arial">"Налаштування"</font> необхідно
+        задати час опитування додатки
+        пристрою.
+        В меню <font size="17" color="red" face="Arial">"Помилки"</font> Ви можете
+        переглядати список помилок,
+        а також видалити їх.
+        В меню <font size="17" color="red" face="Arial">"Введення пристрою"</font>
+        Ви повинні ввести назву блютуз
+        пристрої на контролері.
+    </string>
+    <string name="connect_btu">З\'єднати</string>
+    <string name="disconnect_btu">Роз\'єднати</string>
+    <string name="scan_btn">Пошук пристроїв</string>
+    <string-array name="sensor_err_message">
+        <item>Сенсор на платі спрацював</item>
+        <item>Сенсор передній спрацював</item>
+        <item>Сенсор задній спрацював</item>
+        <item>Пошкодження сенсора на платі</item>
+        <item>Пошкодження переднього сенсора</item>
+        <item>Пошкодження заднього сенсора</item>
+    </string-array>
+    <string name="notification_title">Витік газу</string>
+    <string name="notification_text">Натисніть щоб побачити помилки</string>
+    <string name="btu_en_text">Подождите немного блютуз включається </string>
+    <string name="btu_no_found">Пристроїв не знайдено</string>
+    <string name="bluetooth_devices">Пристрої Bluetooth</string>
+    <string name="no_devices_found">Немає пристрою</string>
+    <string name="scanning">Сканування</string>
+    <string name="scan_for_devices">Пошук</string>
+    <string name="select_device">Вибрати</string>
+    <string name="title_activity_errors">errorsActivity</string>
+</resources>
+
+
+
+

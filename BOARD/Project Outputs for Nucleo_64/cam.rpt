@@ -1,0 +1,17 @@
+CAMtasticDXP Drill Report
+Serial Number:0000-00-00000
+Drill File: D:\ALL_PROJECTS\GAZ_DETECTOR\UZCAR_STM32F0\BOARD\Project Outputs for Nucleo_64\cam.drl
+Format: 2.3
+Units: English (Inch)
+Step & Repeat Codes Used: NO
+
+
+TOOL		SIZE		COUNT
+====		======		=====
+
+ 1 		0.0118		1
+ 2 		0.0157		4
+ 3 		0.0197		95
+ 4 		0.0315		2
+ 5 		0.0354		19
+ 6 		0.0400		6

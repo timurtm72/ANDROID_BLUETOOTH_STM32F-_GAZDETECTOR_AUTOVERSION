@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">شهرزاد 1</string>
+    <string name="btu_name">HC-06</string>
+    <string name="ok">خوب</string>
+    <string name="cancel">لغو</string>
+    <string name="about">درباره برنامه</string>
+    <string name="enter_time">زمان سنجی را وارد کنید</string>
+    <string name="settings">تنظیمات</string>
+    <string name="device_name">نام دستگاه را وارد کنید</string>
+    <string name="not_btu">بلوتوث گم شده است</string>
+    <string name="delete_complete">حذف کامل شده است</string>
+    <string name="empty_ls">لیست خالی است</string>
+    <string name="delete">حذف</string>
+    <string name="sensor_alarm">سنسور و یا گسل</string>
+    <string name="sensor_normal">سنسور سیگنال نرمال</string>
+    <string name="sensor_deactivate">سیگنال سنسور غیر فعال</string>
+    <string name="con_state">اتصال فعال است</string>
+    <string name="discon_state">اتصال فعال نیست</string>
+    <string name="forward_sensor_ppm">غلظت فلز متان گاز جلو</string>
+    <string name="board_sensor_ppm">غلظت سنسور گاز متان در هیئت مدیره</string>
+    <string name="forward_sensor_damage">آسیب به سنسور جلو</string>
+    <string name="board_sensor_damage">آسیب به سنسور در هیئت مدیره</string>
+    <string name="backward_sensor_damage">آسیب به سنسور عقب</string>
+    <string name="forward_sensor_status">جلو حسگر وضعیت</string>
+    <string name="board_sensor_status">سنسور وضعیت در هیئت مدیره</string>
+    <string name="backward_sensor_status">وضعیت سنسور عقب</string>
+    <string name="con_status">وضعیت اتصال</string>
+    <string name="connect">اتصال</string>
+    <string name="main_name">منوی اصلی</string>
+    <string-array name="itemname">
+        <item>فرآیند</item>
+        <item>تنظیمات</item>
+        <item>راهنما</item>
+        <item>درباره برنامه</item>
+        <item>خطاها</item>
+        <item>ورودی دستگاه</item>
+    </string-array>
+    <string-array name="subitemname">
+        <item>فرآیند در حال اجرا</item>
+        <item>تغییر تنظیمات</item>
+        <item>کمک بخوانید</item>
+        <item>همه چیز در مورد برنامه</item>
+        <item>خطاهای نگاه کنید</item>
+        <item>نام دستگاه را وارد کنید</item>
+    </string-array>
+    <string name="about_text_name">
+برنامه شاهرود 1.\n
+منتشر شده در 31 اکتبر 2017\n
+نسخه 1.0\n
+همه حقوق محفوظ است.\n
+    </string>
+    <string name="help_text_name">
+در منوی "تنظیمات" شما نیاز دارید
+تعیین زمان رای گیری برنامه
+دستگاه ها
+در منوی "خطاها" می توانید
+لیستی از خطاها را مشاهده کنید
+و همچنین حذف آنها.
+در منوی "ورودی دستگاه"
+شما باید نام بلوتوث را وارد کنید
+دستگاه کنترل کننده
+    </string>
+    <string name="connect_btu">اتصال</string>
+    <string name="disconnect_btu">قطع کن</string>
+    <string name="scan_btn">دستگاه های جستجو</string>
+    <string-array name="sensor_err_message">
+        <item>سنسور در هیئت مدیره کار می کرد</item>
+        <item>حسگر جلو کار می کرد</item>
+        <item>سنسور عقب کار می کند</item>
+        <item>آسیب به سنسور در هیئت مدیره</item>
+        <item>آسیب به سنسور جلو</item>
+        <item>آسیب به سنسور عقب</item>
+    </string-array>
+    <string name="notification_title">انتشار گاز</string>
+    <string name="notification_text">برای دیدن خطاها کلیک کنید</string>
+    <string name="btu_en_text">صبر کنید کمی بلوتوث روشن شود </string>
+    <string name="btu_no_found">هیچ دستگاهی یافت نشد</string>
+    <string name="bluetooth_devices">دستگاه های بلوتوث</string>
+    <string name="no_devices_found">بدون دستگاه</string>
+    <string name="scanning">اسکن کردن</string>
+    <string name="scan_for_devices">جستجو</string>
+    <string name="select_device">انتخاب کنید</string>
+    <string name="title_activity_errors">errorsActivity</string>
+    <string name="backward_sensor_ppm">غلظت سنسور عقب گاز متان</string>
+</resources>
+
+
+
+

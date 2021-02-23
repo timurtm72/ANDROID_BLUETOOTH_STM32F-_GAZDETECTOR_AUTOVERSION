@@ -1,0 +1,57 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F030K6 -RA -BIN -APB -LHF -SSA -O11111114 -fo48 -N"D:\ALL_PROJECTS\GAZ_DETECTOR\UZCAR_STM32F0\UZCAR_STM32F031_MC101_BTU\UZCAR.mcpar" -SP"C:\Program Files (x86)\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Program Files (x86)\Mikroelektronika\mikroC PRO for ARM\Uses\ST M0\" -SP"D:\ALL_PROJECTS\GAZ_DETECTOR\UZCAR_STM32F0\UZCAR_STM32F031_MC101_BTU\" -SP"D:\ALL_PROJECTS\GAZ_DETECTOR\UZCAR_STM32F0\SOURCE\" -SP"D:\ALL_STM32\STM323F0 SNIPETS\STM32F0xx_Snippets_Package_V1.2.0\Projects\ADC\07_DMA_CircularMode\" -IP"C:\Program Files (x86)\Mikroelektronika\mikroC PRO for ARM\Uses\ST M0\" -IP"D:\ALL_PROJECTS\GAZ_DETECTOR\UZCAR_STM32F0\UZCAR_STM32F031_MC101_BTU\" -IP"D:\ALL_PROJECTS\GAZ_DETECTOR\UZCAR_STM32F0\SOURCE\" "main.c" "adc_func.c" "compare_func.c" "func.c" "timer_func.c" "init_func.c" "eeprom_func.c" "led_buz_func.c" "alarm_func.c" "base_mq.c" "uart.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System.emcl" "__Lib_GPIO_32F030x46_Defs.emcl" "__Lib_GPIO_32F0xx.emcl" "__Lib_CType.emcl" "__Lib_CString.emcl" "__Lib_CStdlib.emcl" "__Lib_CMath.emcl" "__Lib_ADC_32F0x_10ch.emcl" "__Lib_FLASH_32F0x_32.emcl" "__Lib_UART_1.emcl"	 
+diagnostics: 0	122	Compilation Started	STM32F030K6.c
+diagnostics: 17538	123	Compiled Successfully	STM32F030K6.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 165	123	Compiled Successfully	__Lib_Delays.c
+hint: 66	1164	Variable 'cycles_div_by_10' has been eliminated by optimizer	__Lib_Delays.c
+hint: 99	1164	Variable 'cycles_div_by_16' has been eliminated by optimizer	__Lib_Delays.c
+hint: 150	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+hint: 159	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	__lib_gpio.h
+diagnostics: 451	123	Compiled Successfully	__Lib_GPIO_32F030x46_Defs.c
+diagnostics: 0	122	Compilation Started	hider.h
+diagnostics: 19	123	Compiled Successfully	main.c
+diagnostics: 0	122	Compilation Started	hider.h
+diagnostics: 685	123	Compiled Successfully	adc_func.c
+hint: 38	1164	Variable 'tmpBoardSensorValue' has been eliminated by optimizer	adc_func.c
+hint: 38	1164	Variable 'tmpForwardSensorValue' has been eliminated by optimizer	adc_func.c
+hint: 38	1164	Variable 'tmpBackwardSensorValue' has been eliminated by optimizer	adc_func.c
+hint: 178	1164	Variable 'measure' has been eliminated by optimizer	adc_func.c
+diagnostics: 0	122	Compilation Started	hider.h
+diagnostics: 219	123	Compiled Successfully	compare_func.c
+diagnostics: 0	122	Compilation Started	hider.h
+diagnostics: 289	123	Compiled Successfully	func.c
+diagnostics: 0	122	Compilation Started	hider.h
+hint: 0	1004	interrupt handler (Timer3_10ms_int at 0x0020)	timer_func.c
+diagnostics: 94	123	Compiled Successfully	timer_func.c
+diagnostics: 0	122	Compilation Started	hider.h
+diagnostics: 86	123	Compiled Successfully	init_func.c
+diagnostics: 0	122	Compilation Started	hider.h
+warning: 67	1505	Suspicious pointer conversion	eeprom_func.c
+warning: 92	1505	Suspicious pointer conversion	eeprom_func.c
+diagnostics: 259	123	Compiled Successfully	eeprom_func.c
+hint: 88	1164	Variable 'crc' has been eliminated by optimizer	eeprom_func.c
+diagnostics: 0	122	Compilation Started	hider.h
+hint: 43	1354	argument may be out of range [new_state]	led_buz_func.c
+hint: 111	1354	argument may be out of range [new_state]	led_buz_func.c
+diagnostics: 144	123	Compiled Successfully	led_buz_func.c
+hint: 5	1164	Variable 'out' has been eliminated by optimizer	led_buz_func.c
+hint: 49	1164	Variable 'out' has been eliminated by optimizer	led_buz_func.c
+diagnostics: 0	122	Compilation Started	hider.h
+diagnostics: 225	123	Compiled Successfully	alarm_func.c
+diagnostics: 0	122	Compilation Started	hider.h
+diagnostics: 22	123	Compiled Successfully	base_mq.c
+hint: 16	1164	Variable 'Rs' has been eliminated by optimizer	base_mq.c
+hint: 17	1164	Variable 'R0' has been eliminated by optimizer	base_mq.c
+diagnostics: 0	122	Compilation Started	hider.h
+hint: 0	1004	interrupt handler (UART_INT at 0x002B)	uart.c
+diagnostics: 126	123	Compiled Successfully	uart.c
+hint: 68	1164	Variable 'tmp' has been eliminated by optimizer	uart.c
+diagnostics: 0	127	All files Compiled in 1295 ms	 
+hint: 0	1144	Used RX: 11 (69%)   Free RX: 5 (31%)	Used RX: 11 (69%)   Free RX: 5 (31%)
+hint: 0	1144	Static RAM (bytes): 364   Dynamic RAM (bytes): 3599	Static RAM (bytes): 364   Dynamic RAM (bytes): 3599
+hint: 0	1144	Used ROM (bytes): 16121 (49%)  Free ROM (bytes): 16647 (51%)	Used ROM (bytes): 16121 (49%)  Free ROM (bytes): 16647 (51%)
+diagnostics: 0	125	Project Linked Successfully	UZCAR.mcpar
+diagnostics: 0	128	Linked in 374 ms	 
+diagnostics: 0	129	Project 'UZCAR.mcpar' completed: 2964 ms	 
+diagnostics: 0	103	Finished successfully: 11 èþë 2019, 19:30:18	UZCAR.mcpar

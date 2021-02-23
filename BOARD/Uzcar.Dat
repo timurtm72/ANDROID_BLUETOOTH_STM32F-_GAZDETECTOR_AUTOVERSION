@@ -1,0 +1,41 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Uzcar.PrjPCB|ReportField=ProjectFullPath~D:\ALL_PROJECTS\GAZ_DETECTOR\UZCAR_STM32F0\BOARD\Uzcar.PrjPCB|ReportField=Title~Bill of Materials For Project [Uzcar.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~78|ReportField=ReportTime~19:39:14|ReportField=ReportDate~11.05.2017|ReportField=ReportDateTime~11.05.2017 19:39:14|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~11.05.2017|ReportField=CurrentTime~15:12:42|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\ALL_PROJECTS\GAZ_DETECTOR\UZCAR_STM32F0\BOARD\Copy of MCU_32.SchDoc|ReportField=DocumentName~Copy of MCU_32.SchDoc|ReportField=DocumentNumber~MB1180|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~11.05.2017|ReportField=Organization~|ReportField=Project~NUCLEO32|ReportField=ProjectName~Uzcar.PrjPCB|ReportField=Revision~C.1|ReportField=Rule~|ReportField=SheetNumber~2|ReportField=SheetTotal~3|ReportField=Time~|ReportField=Title~MCU|ReportField=DataSourceFileName~Uzcar.PrjPCB|ReportField=DataSourceFullPath~D:\ALL_PROJECTS\GAZ_DETECTOR\UZCAR_STM32F0\BOARD\Uzcar.PrjPCB
+1|HCM-1203A|HCM-1203A buzzer|BZ1|HCM-1203A|HCM-1203A|1
+2|22pF 6v|22pF 6v|C1, C5|CAP0603|Capacitor_np|2
+3|100nF 6v|Capacitor 100nF 5v, Capacitor, Capacitor, Capacitor, Capacitor 0402 / 0603 / 0805|C2, C3, C4, C6, C16|0603C|Cap, Cap, Cap, CAP, Capacitor_ST|5
+4|1uF 16V|Capacitor 1uF 16V|C7, C12, C18|C1206|C|3
+5|1uF 16v|0603  X5R 1µF|C8, C10, C13|0603C|CAP SMD 0603  X5R 1µF 25V 10%|3
+6|100nF 16v|Capacitor|C9, C11, C14|0603C|CAP|3
+7|220uF 10v|Capacitor polarized|C15|SMD D|CP|1
+8|0.1uF 16v|Capacitor 0.1uF 12V|C17|C1206|C|1
+9|1uF 6v|0603  X5R 1µF|C19|0603C|CAP SMD 0603  X5R 1µF 25V 10%|1
+10|470uF 25v|Capacitor polarized|C20, C21|C_EL_10|CP|2
+11|470uF 16v|Capacitor polarized|C22|C_EL_8|CP|1
+12|0.1uF 25V|Capacitor 0.1uF 25V|C23, C24|C1206|C|2
+13|1uF 25V|Capacitor 1uF 25V|C25|C1206|C|1
+14|LED GREEN|Typical INFRARED GaAs LED|D1|My Green Led|LED3m|1
+15|LED RED|Typical INFRARED GaAs LED|D2|My_LED3MM|LED3m|1
+16|BZT52C3V6|Surface Mount Zener Diode|D3, D4, D5|SOD-123|BZT52C3V6|3
+17|SS34|Schottky Diode 40V 3A|D6, D7|SMB|D Schottky|2
+18|Gas sensor MQ4||DA1|MQ1|MQ1|1
+19|Fuse 2|Fuse|F1|1812|Fuse 2|1
+20|100uH 20mA|Inductor|L1, L2, L3, L4|0603L|Inductor|4
+21|100uH 2A|Inductor 100uH 2A|L5, L7|NR60|L|2
+22|33uH 2A|Inductor 33uH 2A|L6|NR60|L|1
+23|GREEN||LD1|0603D_R|PHOTO|1
+24|PROGRAMER|Header, 3-Pin, Dual row|P1|HDR2X3_CEN|Header 3X2A|1
+25|Header 3|Header, 3-Pin|P2|HDR1X3|Header 3|1
+26|Header 5X2|Header, 5-Pin, Dual row|P3|HDR2X5|Header 5X2|1
+27|10K|Resistor|R1, R5, R10, R11, R15|0603R|Res1|5
+28|50K|Resistor|R2|0603R|Res1|1
+29|1K|Resistor, Resistor 0402 / 0603 / 0805|R3, R17|0603R|res1, Resistor_ST|2
+30|1k|Resistor|R4, R6, R7, R12, R13, R16|RES 1206/3216|Resistor1|6
+31|20k|Square Trimming Potentiometer|R8, R9, R14|POT4MM-2|RPot SM|3
+32|Circuit Breaker|Circuit Breaker|SB1, SB2, SB3, SB4, SB5, SB6|SB_0603|Circuit Breaker|6
+33|Button||SW1|SMD_SWITCH|SMD_SWITCH|1
+34|PWR 12V|Terminal block 2p 2.54mm|TB1|terminal block2p|Terminal block 2p|1
+35|STM32F030K6T6||U1|LQFP32_0R5_7x7|MCU_LQFP32|1
+36|ULN2804|HIGH-VOLTAGE,HIGH-CURRENT DARLINTON ARRAYS|U2|SOL-18_N|ULN2803|1
+37|LM358AD|Dual Operational Amplifier|U3, U4|SO-8|LM358AD|2
+38|AMS1117-3.3|1 A Low Dropout Positive Regulator, 2.45 to 15 V Vin, 5 V Vout, 3-pin DPAK (M-3), 0 to 125 degC|U5|369A-13|LT1117CM-5|1
+39|DC/DC reg LM2596S||U6|TO-263|TI LM2596|1
+40|XTAL|Crystal Oscillator 0.197" L x 0.126" W (5.00mm x 3.20mm)|Y1|3SMXA|XTAL|1
